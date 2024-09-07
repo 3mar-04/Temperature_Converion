@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: rgb(1, 76, 76);
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+form{ 
+    background-color: snow;
+    text-align: center;
+    display: flex ;
+    flex-direction: column;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+    box-shadow: 1px 1px 60px silver;
+    gap: 1rem;
+}
+
+h1{
+    color: rgb(56, 56, 155);
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+p{
+    color: rgb(9, 79, 170);
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+#Number{
+    width: 70%;
+    height: 40px;
+    border-radius: .5rem;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+div{
+    
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#Submit{
+    border: 2px solid red;
+    border-radius: 1.5em;
+    font-size: 1.5em;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(253, 36, 36);
+}
